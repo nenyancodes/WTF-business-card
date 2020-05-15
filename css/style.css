@@ -48,8 +48,8 @@ body {
 .svg4 {
   width: 25%;
   position: absolute;
-  top: 140px;
-  left: 690px;
+  top: 200px;
+  left: 680px;
   opacity: 0.9;
   z-index: 2;
 }
@@ -57,16 +57,16 @@ body {
 .svg5 {
   width: 100%;
   position: absolute;
-  bottom: -100;
-  left: 500px;
+  top: 40px;
+  left: 420px;
   z-index: 2;
 }
 
 .svg6 {
   width: 30%;
   position: absolute;
-  top: 350px;
-  left: 495px;
+  top: 370px;
+  left: 435px;
   z-index: 3;
 }
 
