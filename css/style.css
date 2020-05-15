@@ -40,18 +40,18 @@ body {
 .svg3 {
   width: 25%;
   position: absolute;
-  top: 140px;
-  left: 690px;
-  opacity: 0.9;
+  top: 265px;
+  left: -20px;
   z-index: 2;
 }
 
 .svg4 {
-  width: 30%;
+  width: 25%;
   position: absolute;
-  top: 350px;
-  left: 495px;
-  z-index: 3;
+  top: 140px;
+  left: 690px;
+  opacity: 0.9;
+  z-index: 2;
 }
 
 .svg5 {
@@ -60,6 +60,14 @@ body {
   bottom: -100;
   left: 500px;
   z-index: 2;
+}
+
+.svg6 {
+  width: 30%;
+  position: absolute;
+  top: 350px;
+  left: 495px;
+  z-index: 3;
 }
 
 /* CARD */
