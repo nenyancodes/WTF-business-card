@@ -16,11 +16,6 @@ body {
   position: relative;
   overflow: hidden;
   background: #fcf0f0;
-  background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(243, 242, 229, 1) 0%,
-    rgba(248, 213, 214, 1) 90%
-  );
   font-family: "Dosis", Helvetica, Arial, sans-serif;
 }
 
