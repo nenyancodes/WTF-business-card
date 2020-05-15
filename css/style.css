@@ -136,16 +136,15 @@ body {
   font-weight: 400;
 }
 
-.special {
-  font-weight: normal;
-  color: #ed6d05;
-}
+/* SOCIAL MEDIA LINKS */
 
-.media {
+.card__media {
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.media__link {
+.card__media__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,7 +158,7 @@ body {
   z-index: 6;
 }
 
-.media__link::before {
+.card__media__link::before {
   content: "";
   position: absolute;
   top: 0;
@@ -170,7 +169,7 @@ body {
   background: #213d5c;
 }
 
-.media__link:hover::before {
+.card__media__link:hover::before {
   animation: pulse 1.2s ease;
 }
 
@@ -187,7 +186,7 @@ body {
   }
 }
 
-.media__link__icon {
+.card__media__link span {
   color: #fff;
   font-size: 16px;
   z-index: 7;
