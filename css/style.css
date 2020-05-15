@@ -19,39 +19,45 @@ body {
   font-family: "Dosis", Helvetica, Arial, sans-serif;
 }
 
-.svg-navy {
-  position: absolute;
+/* SVG BLOBS */
+
+.svg1 {
   width: 95%;
+  position: absolute;
   top: -300px;
-  left: -370px;
+  left: -380px;
   z-index: 1;
-  opacity: 0.9;
 }
 
-.svg-pink {
-  position: absolute;
+.svg2 {
   width: 80%;
+  position: absolute;
   top: 0;
   left: -400px;
-  opacity: 0.7;
   z-index: 2;
 }
 
-.svg-pink2 {
+.svg3 {
+  width: 25%;
   position: absolute;
+  top: 140px;
+  left: 690px;
+  z-index: 2;
+}
+
+.svg4 {
+  width: 30%;
+  position: absolute;
+  top: 350px;
+  left: 495px;
+  z-index: 3;
+}
+
+.svg5 {
   width: 100%;
-  bottom: -100;
-  left: 480px;
-  opacity: 0.9;
-  z-index: 2;
-}
-
-.svg-orange {
   position: absolute;
-  width: 70%;
-  top: 220px;
-  left: 300px;
-  opacity: 0.9;
+  bottom: -100;
+  left: 500px;
   z-index: 2;
 }
 
