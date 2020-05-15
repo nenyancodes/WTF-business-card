@@ -15,7 +15,7 @@ body {
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background: #fffbfb;
+  background: #fff8f8;
   font-family: "Dosis", Helvetica, Arial, sans-serif;
 }
 
@@ -29,19 +29,19 @@ body {
 /* SVG BLOBS */
 
 .main__svg-left-top {
-  width: 90%;
+  width: 80%;
   position: absolute;
-  top: -280px;
-  left: -370px;
+  top: -240px;
+  left: -300px;
   opacity: 0.95;
   z-index: 1;
 }
 
 .main__svg-left-middle {
-  width: 80%;
+  width: 70%;
   position: absolute;
-  top: 0;
-  left: -400px;
+  top: 25px;
+  left: -330px;
   z-index: 2;
 }
 
@@ -54,19 +54,19 @@ body {
 }
 
 .main__svg-right-top {
-  width: 25%;
+  width: 22%;
   position: absolute;
   top: 280px;
-  left: 650px;
+  left: 675px;
   opacity: 1;
   z-index: 3;
 }
 
 .main__svg-right-middle {
-  width: 95%;
+  width: 85%;
   position: absolute;
-  top: 100px;
-  left: 380px;
+  top: 135px;
+  left: 445px;
   z-index: 2;
 }
 
@@ -74,7 +74,7 @@ body {
   width: 30%;
   position: absolute;
   top: 410px;
-  left: 400px;
+  left: 430px;
   z-index: 3;
 }
 
