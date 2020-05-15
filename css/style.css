@@ -15,7 +15,7 @@ body {
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background: #fff8f8;
+  background: #fffbfb;
   font-family: "Dosis", Helvetica, Arial, sans-serif;
 }
 
@@ -23,7 +23,7 @@ body {
   position: relative;
   width: 720px;
   margin: 16px;
-  background-color: rgb(255, 250, 250);
+  background-color: rgb(255, 253, 253);
 }
 
 /* SVG BLOBS */
