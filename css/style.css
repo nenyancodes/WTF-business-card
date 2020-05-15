@@ -136,6 +136,11 @@ body {
   font-weight: 400;
 }
 
+.special {
+  font-weight: 500;
+  color: #dba2b0;
+}
+
 /* SOCIAL MEDIA LINKS */
 
 .card__media {
