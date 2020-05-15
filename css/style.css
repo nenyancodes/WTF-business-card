@@ -138,16 +138,46 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   width: 2rem;
   height: 2rem;
   margin: 24px 15px 10px 0;
   border-radius: 50%;
   background-color: #213d5c;
   text-decoration: none;
+  z-index: 6;
+}
+
+.media__link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
   background: #213d5c;
+}
+
+.media__link:hover::before {
+  animation: pulse 1.2s ease;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
 
 .media__link__icon {
   color: #fff;
   font-size: 16px;
+  z-index: 7;
 }
