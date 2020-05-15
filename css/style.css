@@ -21,15 +21,16 @@ body {
 
 /* SVG BLOBS */
 
-.svg1 {
-  width: 95%;
+.main__svg-left-top {
+  width: 90%;
   position: absolute;
-  top: -300px;
-  left: -390px;
+  top: -280px;
+  left: -370px;
+  opacity: 0.95;
   z-index: 1;
 }
 
-.svg2 {
+.main__svg-left-middle {
   width: 80%;
   position: absolute;
   top: 0;
@@ -37,35 +38,35 @@ body {
   z-index: 2;
 }
 
-.svg3 {
+.main__svg-left-bottom {
   width: 25%;
   position: absolute;
   top: 265px;
   left: -20px;
-  z-index: 2;
+  z-index: 3;
 }
 
-.svg4 {
-  width: 25%;
+.main__svg-right-top {
+  width: 15%;
   position: absolute;
-  top: 200px;
+  top: 245px;
   left: 680px;
-  opacity: 0.9;
-  z-index: 2;
+  opacity: 0.85;
+  z-index: 1;
 }
 
-.svg5 {
-  width: 100%;
+.main__svg-right-middle {
+  width: 95%;
   position: absolute;
-  top: 40px;
-  left: 420px;
+  top: 60px;
+  left: 430px;
   z-index: 2;
 }
 
-.svg6 {
+.main__svg-right-bottom {
   width: 30%;
   position: absolute;
-  top: 370px;
+  top: 390px;
   left: 435px;
   z-index: 3;
 }
