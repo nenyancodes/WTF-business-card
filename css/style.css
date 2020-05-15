@@ -15,8 +15,15 @@ body {
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background: #fcf0f0;
+  background: #fcf2f2;
   font-family: "Dosis", Helvetica, Arial, sans-serif;
+}
+
+.main {
+  position: relative;
+  width: 720px;
+  margin: 16px;
+  background-color: rgb(255, 250, 250);
 }
 
 /* SVG BLOBS */
@@ -72,13 +79,6 @@ body {
 }
 
 /* CARD */
-
-.main {
-  position: relative;
-  width: 720px;
-  margin: 16px;
-  background-color: rgb(255, 246, 246);
-}
 
 .card {
   display: flex;
