@@ -42,6 +42,7 @@ body {
   position: absolute;
   top: 140px;
   left: 690px;
+  opacity: 0.9;
   z-index: 2;
 }
 
@@ -107,7 +108,7 @@ body {
   margin: 0;
   font-size: 42px;
   font-weight: 400;
-  color: #666;
+  color: #213d5c;
 }
 
 .card__position {
@@ -141,9 +142,9 @@ body {
   height: 2rem;
   margin: 24px 15px 10px 0;
   border-radius: 50%;
-  background-color: #a5ad9f;
+  background-color: #213d5c;
   text-decoration: none;
-  z-index: 7;
+  background: #213d5c;
 }
 
 .media__link__icon {
