@@ -103,13 +103,13 @@ body {
   width: 148px;
   height: 148px;
   border-radius: 50%;
-  margin-right: 64px;
+  margin-right: 56px;
   opacity: 0.9;
   z-index: 2;
 }
 
 .card__info {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .card__name {
@@ -122,15 +122,17 @@ body {
 .card__position {
   margin: 0;
   font-size: 18px;
+  line-height: 24px;
   font-style: italic;
   color: #a5ad9f;
 }
 
 .card__description {
   margin: 0;
-  font-size: 14px;
-  line-height: 22px;
   padding-top: 5px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
 }
 
 .special {
@@ -149,7 +151,7 @@ body {
   position: relative;
   width: 2rem;
   height: 2rem;
-  margin: 24px 15px 10px 0;
+  margin: 30px 15px 10px 0;
   border-radius: 50%;
   background-color: #213d5c;
   text-decoration: none;
