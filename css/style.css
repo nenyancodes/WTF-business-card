@@ -209,6 +209,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    overflow-y: visible;
+  }
   .main {
     width: 500px;
   }
