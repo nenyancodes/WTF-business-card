@@ -263,3 +263,48 @@ body {
     margin-bottom: 32px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow: visible;
+  }
+
+  .main {
+    position: relative;
+    margin: 8px;
+    width: 100%;
+  }
+
+  /* SVG BLOBS */
+
+  .main__svg-left-top,
+  .main__svg-left-bottom,
+  .main__svg-right-bottom,
+  .main__svg-right-middle {
+    display: none;
+  }
+
+  /* CARD */
+
+  .card__image {
+    width: 128px;
+    height: 128px;
+  }
+
+  .card__wrapper {
+    text-align: center;
+  }
+
+  .card__name {
+    font-size: 36px;
+  }
+
+  .card__description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
