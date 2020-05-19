@@ -207,3 +207,104 @@ body {
     box-shadow: 0 0 15px 0px rgba(0, 0, 0, 0.2);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 500px;
+  }
+
+  /* SVG */
+
+  .main__svg-left-top {
+    top: -220px;
+    left: -250px;
+  }
+
+  .main__svg-left-middle {
+    display: none;
+  }
+
+  .main__svg-left-bottom {
+    top: -70px;
+    left: 50px;
+  }
+
+  .main__svg-right-top {
+    display: none;
+  }
+
+  .main__svg-right-middle {
+    top: 455px;
+    left: 350px;
+  }
+
+  .main__svg-right-bottom {
+    width: 20%;
+    top: 660px;
+    left: 380px;
+  }
+
+  /* CARD */
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+  }
+
+  .card__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card__image {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow: visible;
+  }
+
+  .main {
+    position: relative;
+    margin: 8px;
+    width: 100%;
+  }
+
+  /* SVG BLOBS */
+
+  .main__svg-left-top,
+  .main__svg-left-bottom,
+  .main__svg-right-bottom,
+  .main__svg-right-middle {
+    display: none;
+  }
+
+  /* CARD */
+
+  .card__image {
+    width: 128px;
+    height: 128px;
+  }
+
+  .card__wrapper {
+    text-align: center;
+  }
+
+  .card__name {
+    font-size: 36px;
+  }
+
+  .card__description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
