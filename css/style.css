@@ -14,7 +14,7 @@ body {
   align-items: center;
   height: 100vh;
   position: relative;
-  overflow: hidden;
+  overflow-x: hidden;
   background: #fff8f8;
   font-family: "Dosis", Helvetica, Arial, sans-serif;
 }
