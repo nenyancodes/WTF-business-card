@@ -8,8 +8,8 @@ Simple business card website created for "WTF: co ten frontend" coding training 
 ## Live view
 Link: https://nenyancodes.github.io/WTF-business-card/ 
 
-## Status
-Project status: _completed_
+## Project status: _completed_
+<img src="done.jpg" alt="completed" width="200">
 
 ## Sources
 This particular website is inspired by a homework project prepared for "WTF: co ten frontend" coding training program, which was based on specific Figma design. Here you can find [__repo__](https://github.com/nenyancodes/WTF-business-card-initial) of the original project and its [__live view__](https://nenyancodes.github.io/WTF-business-card-initial/).
