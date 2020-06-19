@@ -6,7 +6,7 @@
 Simple business card website created for "WTF: co ten frontend" coding training program - with my own design that includes lovely SVG blobs and a little trick with box-shadow CSS property. 
 
 ## Live view
-Link: https://nenyancodes.github.io/nomadic-chronicles/ 
+Link: https://nenyancodes.github.io/WTF-business-card/ 
 
 ## Status
 Project status: _completed_
